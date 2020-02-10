@@ -3,7 +3,7 @@
 def display_board(board)
   seperator ="|"
   lines ="-----------"
-  puts "#{board[0]}#{sepeator}#{board[1]}#{sepeator} #{board[2]}"
+  puts "#{board[0]}#{seperator} #{board[1]} #{seperator} #{board[2]}"
   puts "#{lines}"
   puts "#{board[3]}#{seperator} #{board[4]}#{seperator} #{board[5]}"
   puts "#{lines}"
